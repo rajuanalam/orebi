@@ -1,0 +1,476 @@
+/* All Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Common Css End */
+
+
+/* Header Part Css Start */
+.navbar{
+    padding: 30px 0px;
+}
+#header_part{
+    background: #f5f5f3;
+    padding: 30px 0px;
+    border: 1px solid #979797;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #767676;;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    transition: 0.5s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #262626;
+}
+.catagory_part a{
+    color: #262626;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+.catagory_part i{
+    padding-right: 10px;
+}
+.header_part_icon i{
+    padding-right: 5px;
+}
+#cart{
+   padding-left: 40px;
+}
+.search_bar_button{
+    position: relative;
+}
+.search_button i{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+/* Header Part Css End */
+
+
+/* Banner Part Css Start */
+#banner_part{
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 170px;
+    padding-bottom: 175px;
+}
+.banner_slider{
+    display: flex;
+    padding-top: 60px;
+}
+.banner_slider h6{
+    color: #262626;
+font-family: 'DM Sans', sans-serif;
+font-size: 10px;
+font-weight: 400;
+padding-top: 5px;
+padding-right: 5px;
+}
+.banner_head_text h1{
+    color: #262626;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner_text{
+    display: inline-flex;
+    padding-top: 80px;
+}
+.banner_text p{
+    color: #6D6D6D;
+    font-family: 'DM Sans', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+padding-top: 13px;
+}
+.banner_text h3{
+    color: #262626;
+    font-family: 'DM Sans', sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: normal;
+padding: 0px 8px;
+}
+.banner_button{
+    padding-top: 80px;
+}
+.banner_button a{
+    background: #262626;
+    padding: 15px 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+/* Banner Part Css End */
+
+
+/* Info Part Css Start */
+#info_part{
+    border: 1px solid #F0F0F0;
+    background: #FFF;
+    padding: 35px 0px;
+}
+.information_text p{
+    color: #6D6D6D;
+text-align: center;
+font-family: 'DM Sans', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+}
+.information_text i{
+    padding-right: 8px;
+    color: #262626;
+}
+/* Info Part Css End */
+
+/* Offer Part Css Start */
+#offer_part{
+    background: #fff;
+    padding-top: 125px;
+}
+.offer_image_text{
+   position: relative;
+}
+.offer_image_text img{
+    width:630px;
+    
+}
+.offer_head h3{
+    color: #262626;
+font-family: 'DM Sans', sans-serif;
+font-size: 39px;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top: 390px;
+left: 40px;
+
+}
+
+.offer_text p{
+    color: #6D6D6D;
+    font-family: 'DM Sans', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+left: 40px;
+top: 470px;
+}
+.offer_text .second_p{
+position: absolute;
+left: 170px;
+top: 470px;
+}
+.offer_text h4{
+    color: #262626;
+    font-family: 'DM Sans', sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top: 456px;
+left: 85px;
+}
+
+.offer_button a{
+    background: #262626;
+    padding: 15px 50px; 
+    color: #FFF;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 540px;
+    left: 40px;
+}
+.offer_image_text_two{
+    position: relative;
+    margin-bottom: 34px;
+ }
+ .offer_image_text_two img{
+     width:630px;
+ }
+.electro_head h3{
+    color: #262626;
+font-family: 'DM Sans', sans-serif;
+font-size: 39px;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top: 65px;
+left: 40px;
+}
+.electro_text p{
+    color: #6D6D6D;
+    font-family: 'DM Sans', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+left: 40px;
+top: 140px;
+
+}
+.electro_text .electro_p{
+position: absolute;
+left: 170px;
+top: 140px;
+}
+.electro_text h4{
+    color: #262626;
+    font-family: 'DM Sans', sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top: 126px;
+left: 85px;
+}
+
+.electro_button a{
+    background: #262626;
+    padding: 15px 50px; 
+    color: #FFF;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+/* Offer Part Css End */
+
+/* Arrival Part Css Start */
+#arrival_part{
+    background: #FFF;
+    padding-top: 100px;
+    padding-bottom: 130px;
+   
+}
+.arrival_head_text h3{
+    font-family: 'DM Sans', sans-serif;
+    color: #262626;
+font-size: 39px;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 45px;
+}
+.arrival_image_text{
+    position: relative; 
+}
+.arrival_image_text img{
+    width: 305px;
+}
+.arrival_image a{
+    background: #262626;
+    padding: 13px 30px;
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.arrival_icon img{
+    width: 64px;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+}
+.arrival_icon_next img{
+    width: 64px;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+.arrival_bottom_text h5{
+    color: #262626;
+    font-family: 'DM Sans', sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+left: 0px;
+bottom: -35px;
+}
+.arrival_bottom_text p{
+    color: #767676;
+    font-family: 'DM Sans', sans-serif;
+font-size: 16px;
+font-weight: 400;
+
+position: absolute;
+right:0px;
+bottom: -30px;
+}
+.arrival_bottom_text .aass_p{
+    color: #767676;
+    font-family: 'DM Sans', sans-serif;
+font-size: 16px;
+font-weight: 400;
+
+position: absolute;
+left:0px;
+bottom: -70px;
+}
+/* Arrival Part Css End */
+
+
+/* best sell Part Css Start */
+#bestsell_part{
+    padding-top: 80px;
+    background: #FFF;
+}
+.item_image_year img{
+    padding-top: 160px;
+}
+.item_year_text{
+    background: #F3F3F3;
+    padding-top: 70px;
+    padding-bottom: 63px;
+    margin-top: 160px;
+    padding-left: 0px;
+}
+.item_year_text h3{
+    color: #262626;
+font-family: 'DM Sans', sans-serif;
+font-size: 39px;
+font-weight: 700;
+line-height: normal;
+
+}
+.item_year_text p{
+    color: #262626;
+    font-family: 'DM Sans', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+padding-top: 30px;
+}
+.shop_button a{
+    background: #262626;
+    padding: 18px 55px;
+    color: #FFF;
+text-align: center;
+font-family: 'DM Sans', sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: normal;
+}
+.shop_button{
+    padding-top: 54px;
+}
+/* best sell Part Css End */
+
+/* Special offer Part Css Start */
+#special_part{
+    background: #FFF;
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+/* Special offer Part Css End */
+
+/* Last Part Css Start */
+#last_part{
+    background: #F5F5F3;
+    padding: 50px 0px;
+
+}
+.last_part_text h4{
+    color: #262626;
+font-family: 'DM Sans', sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 23px;
+padding-bottom: 10px;
+}
+.last_part_text p{
+    color: #6D6D6D;
+    font-family: 'DM Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 23px;
+padding-top: 5px;
+}
+
+.shop_part_text h4{
+padding-left: 50px ;
+}
+.shop_part_text p{
+    padding-left: 50px;
+}
+
+.company_contact_part h5{
+    color: #262626;
+    font-family: 'DM Sans', sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 27px;
+padding-right: 43px;
+}
+.company_contact_part p{
+    color: #6D6D6D;
+    font-family: 'DM Sans', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px;
+padding-top: 10px;
+}
+.company_icon_part img{
+    height: 20px;
+}
+.bottom_icon_part i{
+    font-size: 20px;
+    padding-top: 60px;
+    padding-right: 25px;
+}
+.copyright_text p{
+    color: #6D6D6D;
+text-align: right;
+font-family: 'DM Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 23px;
+padding-top: 65px;
+}
+/* Last Part Css End */
